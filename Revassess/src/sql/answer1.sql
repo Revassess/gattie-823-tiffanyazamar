@@ -1,0 +1,1 @@
+SELECT au.* FROM app_user au INNER JOIN user_role ur ON ur.role_id = au.role_id WHERE ur.name ='BASIC_USER'
